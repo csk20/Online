@@ -1,0 +1,10 @@
+
+patvvariable
+http://localhost:8080/OnlineShopping/test1/hghgfgf
+
+
+
+
+
+@ request Param
+http://localhost:8080/OnlineShopping/test?greeting=hdfhf

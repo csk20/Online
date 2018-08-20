@@ -6,8 +6,13 @@ import com.qolsys.onlineshopping.dto.Category;
 
 public interface CategoryDao {
 	
-	List<Category> list();
+	
 	public boolean add(Category category);
+	List<Category> list();
 	Category get(int id);
-
+  
+	public boolean update(Category category);
+	public boolean delete(Category category);
+	
+	
 }

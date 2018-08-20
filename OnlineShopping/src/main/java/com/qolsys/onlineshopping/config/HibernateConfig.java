@@ -20,8 +20,10 @@ public class HibernateConfig {
 
 
 	private static final String database_driver = "com.mysql.jdbc.Driver";
-	private static final String database_url = "jdbc:mysql://localhost:3307/chandan";
+//	private static final String database_url = "jdbc:mysql://localhost:3307/chandan";
+	private static final String database_url = "jdbc:mysql://localhost:3306/chandan";
 	private static final String database_root = "root";
+	//private static final String database_password = "root";
 	private static final String database_password = "root";
 
 	private static final String hibernate_dialect = "org.hibernate.dialect.MySQLDialect";

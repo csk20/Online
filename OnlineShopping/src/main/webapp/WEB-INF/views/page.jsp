@@ -37,7 +37,7 @@
 <body>
 
 
-	<div class="wrapper">
+	<div class="wrapper">	
 		<%--   <c:set var="contextRoot" value="${pageContext.request.contextPath}"/> --%>
 
 		<!-- Navigation -->
@@ -78,7 +78,7 @@
 
 		<!-- /.container -->
 
-		<div class="wrapper">
+		<div class="footer">
 
 
 

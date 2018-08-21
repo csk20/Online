@@ -64,38 +64,39 @@
 			<c:if test="${userClickContact==true }">
 				<%@ include file="contact.jsp"%>
 			</c:if>
-			
-			
+
+
 			<c:if test="${userClickAllProducts==true }">
 				<%@ include file="listProducts.jsp"%>
 			</c:if>
-			
-			
+
+
 			<c:if test="${userClickCategoryProducts==true }">
 				<%@ include file="listProducts.jsp"%>
 			</c:if>
-			
-			
-			<!-- /.container -->
+		</div>
 
-			<div class="wrapper">
+		<!-- /.container -->
 
-
+		<div class="wrapper">
 
 
-				<!-- Footer -->
-
-				<%@ include file="./shared/footer.jsp"%>
-
-				<!-- Bootstrap core JavaScript -->
-				<script src="${jquery}/jquery.min.js"></script>
-				<script src="${js}/bootstrap.bundle.min.js"></script>
-
-				<!-- selfCoded JavaScript -->
-				<script src="${js}/myapp.js"></script>
 
 
-			</div>
+			<!-- Footer -->
+
+			<%@ include file="./shared/footer.jsp"%>
+
+			<!-- Bootstrap core JavaScript -->
+			<script src="${jquery}/jquery.min.js"></script>
+			<script src="${js}/bootstrap.bundle.min.js"></script>
+
+			<!-- selfCoded JavaScript -->
+			<script src="${js}/myapp.js"></script>
+
+
+		</div>
+	</div>
 </body>
 
 </html>

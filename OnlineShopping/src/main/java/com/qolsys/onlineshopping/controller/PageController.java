@@ -21,7 +21,7 @@ public class PageController {
 	public String    index(Map<String,Object> map) {
 		map.put("title","Home");
 		map.put("userClickHome",true);
-		map.put("categeries", categoryDao.list());
+		map.put("categories", categoryDao.list());
 		return "page";
 	}
 
@@ -37,7 +37,7 @@ public class PageController {
 	public String    showAllProducts(Map<String,Object> map) {
 		map.put("title","All Products");
 		map.put("userClickAllProducts",true);
-		map.put("categeries", categoryDao.list());
+		map.put("categories", categoryDao.list());
 		return "page";
 	}
 	
@@ -45,7 +45,7 @@ public class PageController {
 	@RequestMapping(value= {"show/categories/{id}/products"})
 	public String    showCategoryProducts(Map<String,Object> map,@PathVariable("id") int id) {
 	
-		map.put("userClickCategoryProducts","true");
+		map.put("userClickCategoryProducts",true);
 		Category category=null;
 		
 		category=categoryDao.get(id);

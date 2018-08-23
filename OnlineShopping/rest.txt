@@ -8,3 +8,10 @@ http://localhost:8080/OnlineShopping/test1/hghgfgf
 
 @ request Param
 http://localhost:8080/OnlineShopping/test?greeting=hdfhf
+
+
+
+
+http://localhost:4545/OnlineShopping/json/data/all/products
+
+http://localhost:4545/OnlineShopping/json/data/category/1/products

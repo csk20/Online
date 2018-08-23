@@ -26,8 +26,14 @@
 <script type="text/javascript">
 	window.menu = '${title}';
 </script>
+
+
+
 <!-- Bootstrap core CSS -->
-<link href="${css}/bootstrap.min.css" rel="stylesheet">
+ <link href="${css}/bootstrap.min.css" rel="stylesheet"> 
+
+<!-- Bootstrap readable theme -->
+<link href="${css}/bootstrap.min1.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="${css}/shop-homepage.css" rel="stylesheet">

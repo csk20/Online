@@ -95,6 +95,12 @@
 
 			<!-- Bootstrap core JavaScript -->
 			<script src="${jquery}/jquery.min.js"></script>
+			
+			<!-- Datatable plugin -->
+			<script src="${jquery}/jquery.dataTables.js"></script>
+			
+				<script src="${js}/dataTables.bootstrap.js"></script>
+			
 			<script src="${js}/bootstrap.bundle.min.js"></script>
 
 			<!-- selfCoded JavaScript -->

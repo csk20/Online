@@ -33,7 +33,7 @@ public class Product {
 	private int categoryId;
 	@JsonIgnore
 	@Column(name="supplier_id")
-
+ 
 	private int supplierId;
 	private int purchases;
 	private int views;
